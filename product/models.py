@@ -27,7 +27,6 @@ class Product(models.Model):
     color = models.JSONField(default = list)
     size = models.JSONField(default = list)
 
-    
 
 
 
