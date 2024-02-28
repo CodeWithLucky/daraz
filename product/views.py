@@ -12,5 +12,5 @@ class ProductView(ListView):
 class ProductDetailView(DetailView):
     template_name = 'product_detail.html'
     model = Product
-    context_object_name = 'product'
+    context_object_name = 'prod'
     pk_url_kwarg = 'sku'
